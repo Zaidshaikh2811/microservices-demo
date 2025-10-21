@@ -1,0 +1,32 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+.env.*
+
+# Docker
+**/Dockerfile*
+docker-compose.yml
+
+# Kubernetes
+infra/k8s/*.yaml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Misc
+*.swp
+*.swo
+
+# IDE files
+.vscode/
+.idea/
